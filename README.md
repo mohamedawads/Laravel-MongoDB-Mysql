@@ -60,6 +60,9 @@
 							-comment use Jenssegers\Mongodb\Auth\User as Authenticatable;
 			
 			remember to set mongodb with use Jenssegers\Mongodb\Auth\User as Authenticatable
-				and mysql with use Illuminate\Foundation\Auth\User as Authenticatable; 
+				and mysql with use Illuminate\Foundation\Auth\User as Authenticatable;
+				
+			default is mysql with use Illuminate\Foundation\Auth\User as Authenticatable;
+			to set login using mysql 
 		
 	
