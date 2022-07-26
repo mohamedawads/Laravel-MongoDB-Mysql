@@ -45,7 +45,7 @@
 	
 	7 - Show button dispay info about user and all user friends
 	
-	8- If you want to create fake user using cmd
+	8- If you want to create fake users using cmd
 		run php artisan tinker
 		run User::factory()->count(20)->create()
 		but before do that you must 
