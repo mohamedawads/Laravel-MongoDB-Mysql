@@ -45,3 +45,21 @@
 	
 	7 - Show button dispay info about user and all user friends
 	
+	8- If you want to create fake user using cmd
+		run php artisan tinker
+		run User::factory()->count(20)->create()
+		but before do that you must 
+			if you need this users in mongodb
+			1 - from .ENV file change DB_CONNECTION=mongodb
+			2 - from App\Models\User Model - uncomment use Jenssegers\Mongodb\Auth\User as Authenticatable;
+							-comment use Illuminate\Foundation\Auth\User as Authenticatable;
+			
+			if you need this users in mysql
+			1 - from .ENV file change DB_CONNECTION=mysql
+			2 - from App\Models\User Model - uncomment use Illuminate\Foundation\Auth\User as Authenticatable;
+							-comment use Jenssegers\Mongodb\Auth\User as Authenticatable;
+			
+			remember to set mongodb with use Jenssegers\Mongodb\Auth\User as Authenticatable
+				and mysql with use Illuminate\Foundation\Auth\User as Authenticatable; 
+		
+	
