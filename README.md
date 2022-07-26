@@ -23,13 +23,11 @@
 	2 - Go to .ENV file and setup mysql database and mongodb database(no USERNAME no PASSWORD)
 	
 	3 - Go to .ENV file and
-	Change DB_CONNECTION=mysql to DB_CONNECTION=mongodb
-	
-	CMD run command php artisan migrate
+	    Change DB_CONNECTION=mysql to DB_CONNECTION=mongodb
+	    CMD run command php artisan migrate
 	
 	4 - Go to .ENV file again and
-	Rechange DB_CONNECTION=mongodb to DB_CONNECTION=mysql
-	
-	CMD run command php artisan migrate
+	    Rechange DB_CONNECTION=mongodb to DB_CONNECTION=mysql
+	    CMD run command php artisan migrate
 	
 	That is all
