@@ -30,4 +30,18 @@
 	    Rechange DB_CONNECTION=mongodb to DB_CONNECTION=mysql
 	    CMD run command php artisan migrate
 	
-	That is all
+	Using
+	1 - Register new user
+		application will create new user in two database mysql and mongodb
+	2 - you have two tabs named mongodb , mysql
+		each one display users in its database
+	3 - In the top of table buttom "create new user"
+		also create the user in the two databases
+	4 - Each user row has "friend", "unfriend" buttons
+	
+	5 - Friend button create friend relation between the login user(Authenticated user) and the user in this table row
+	
+	6 - UnFriend button delete the friend relation between this user and login user
+	
+	7 - Show button dispay info about user and all user friends
+	
