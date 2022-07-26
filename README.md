@@ -36,7 +36,7 @@
 	2 - you have two tabs named mongodb , mysql
 		each one display users in its database
 	3 - In the top of table buttom "create new user"
-		also create the user in the two databases
+		also create users in the two databases
 	4 - Each user row has "friend", "unfriend" buttons
 	
 	5 - Friend button create friend relation between the login user(Authenticated user) and the user in this table row
